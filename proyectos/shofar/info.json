@@ -1,0 +1,10 @@
+{
+  "titulo": "SHOFAR",
+  "tipo": "Inteligencia comercial · En producción",
+  "anio": "2026",
+  "descripcion": "Plataforma comercial para una sucursal de seguros: metas y ritmo del equipo en vivo, simulador de comisiones, mapa de calor de cobertura por zona y ETHAN, un asistente con IA que responde sobre productos y apoya la suscripción.",
+  "tecnologias": ["Python", "Flask", "SQLite", "Leaflet", "IA"],
+  "enlace": "",
+  "repo": "",
+  "orden": 2
+}

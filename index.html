@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- EDITAR: nombre y descripción para Google y al compartir el link -->
+  <title>Daniel APELLIDO · Desarrollador</title>
+  <meta name="description" content="Portafolio de Daniel APELLIDO, desarrollador de software en Barranquilla.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+  <a class="saltar" href="#proyectos">Saltar a proyectos</a>
+
+  <header class="barra">
+    <a class="marca" href="#inicio">daniel<span>.</span></a>
+    <nav aria-label="Principal">
+      <a href="#proyectos">Proyectos</a>
+      <a href="#sobre-mi">Sobre mí</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- EDITAR: presentación -->
+    <section id="inicio" class="hero">
+      <p class="etiqueta">Desarrollador de software · Barranquilla, Colombia</p>
+      <h1>Hola, soy Daniel.<br><em>Construyo aplicaciones web</em> que la gente sí usa.</h1>
+      <p class="bajada">Me gusta convertir procesos enredados en herramientas simples: backend en Python, interfaces claras y código que otro pueda mantener.</p>
+      <div class="acciones">
+        <a class="boton principal" href="#proyectos">Ver proyectos</a>
+        <a class="boton" href="#contacto">Escríbeme</a>
+      </div>
+    </section>
+
+    <section id="proyectos" class="seccion">
+      <div class="cabeza">
+        <h2>Proyectos</h2>
+        <p id="conteo" class="mono"></p>
+      </div>
+      <div id="lista" class="rejilla" aria-live="polite">
+        <p class="vacio">Cargando proyectos…</p>
+      </div>
+    </section>
+
+    <!-- EDITAR: sobre mí y tecnologías -->
+    <section id="sobre-mi" class="seccion dos-col">
+      <h2>Sobre mí</h2>
+      <div>
+        <p>Soy desarrollador y trabajo sobre todo con Python y Flask del lado del servidor y JavaScript en el navegador. Disfruto diseñar bases de datos ordenadas, escribir pruebas y revisar código en equipo.</p>
+        <p>Ahora mismo estoy construyendo <strong>SPLITS</strong>, una app para planear y registrar entrenamientos.</p>
+        <ul class="chips" aria-label="Tecnologías">
+          <li>Python</li><li>Flask</li><li>SQLAlchemy</li><li>SQL</li><li>JavaScript</li><li>HTML y CSS</li><li>Git y GitHub</li><li>Cloudflare</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- EDITAR: datos de contacto -->
+    <section id="contacto" class="seccion dos-col">
+      <h2>Contacto</h2>
+      <div>
+        <p class="grande">¿Tienes un proyecto en mente? Hablemos.</p>
+        <ul class="enlaces">
+          <li><a href="mailto:CORREO@ejemplo.com">CORREO@ejemplo.com</a></li>
+          <li><a href="https://github.com/dmauryf1-byte" target="_blank" rel="noopener">GitHub ↗</a></li>
+          <li><a href="https://www.linkedin.com/in/USUARIO" target="_blank" rel="noopener">LinkedIn ↗</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer class="pie">
+    <p>© <span id="anio"></span> Daniel APELLIDO</p>
+    <a href="#inicio">Volver arriba ↑</a>
+  </footer>
+
+  <dialog id="visor" aria-label="Captura ampliada">
+    <img src="" alt="">
+    <button type="button" class="cerrar" aria-label="Cerrar">×</button>
+  </dialog>
+
+  <script src="app.js"></script>
+</body>
+</html>

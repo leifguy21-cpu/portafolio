@@ -1,0 +1,10 @@
+{
+  "titulo": "SPLITS",
+  "tipo": "App web",
+  "anio": "2026",
+  "descripcion": "App para planear y registrar entrenamientos, pensada para personas sueltas y entrenadores con alumnos. Login con Google, API REST y pruebas automáticas.",
+  "tecnologias": ["Python", "Flask", "SQLAlchemy", "JavaScript"],
+  "enlace": "",
+  "repo": "",
+  "orden": 4
+}

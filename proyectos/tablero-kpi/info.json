@@ -1,0 +1,10 @@
+{
+  "titulo": "Tablero KPI de Almacén",
+  "tipo": "Plataforma web · En producción",
+  "anio": "2026",
+  "descripcion": "Dos Excel con macros convertidos en un tablero web para un almacén de bebidas. Registro por turnos con semáforo de metas, gráficos con un clic, modo reunión en pantalla completa y alarmas en vivo para la descarga de camiones. Aprobado y en uso en planta.",
+  "tecnologias": ["Cloudflare Workers", "D1", "TypeScript", "ECharts", "Excel"],
+  "enlace": "",
+  "repo": "",
+  "orden": 1
+}

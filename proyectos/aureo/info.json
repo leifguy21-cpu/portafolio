@@ -1,0 +1,10 @@
+{
+  "titulo": "AUREO",
+  "tipo": "Sistema de gestión · Demo",
+  "anio": "2026",
+  "descripcion": "Gestión completa para ferreterías industriales: punto de venta, inventario, preparación de pedidos, compras y un WMS con mapa térmico de la bodega y recomendaciones de reubicación por rotación ABC. Incluye a Melyor, un asistente con IA.",
+  "tecnologias": ["JavaScript", "Vercel", "OpenAI", "Excel"],
+  "enlace": "",
+  "repo": "",
+  "orden": 3
+}

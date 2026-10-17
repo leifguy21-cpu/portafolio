@@ -1,0 +1,10 @@
+{
+  "titulo": "Nombre del proyecto",
+  "tipo": "App web",
+  "anio": "2026",
+  "descripcion": "Una o dos frases: qué problema resuelve y para quién.",
+  "tecnologias": ["Python", "Flask"],
+  "enlace": "",
+  "repo": "",
+  "orden": 10
+}
