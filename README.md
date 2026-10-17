@@ -1,4 +1,4 @@
-# Portafolio de Daniel
+# Portafolio de Leif Flórez · SACOI-Q
 
 HTML, CSS y JS puros, sin build. Los proyectos salen de la carpeta `proyectos/` (ver `proyectos/LEEME.md`).
 
